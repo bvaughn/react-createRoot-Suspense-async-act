@@ -1,0 +1,18 @@
+{
+  "name": "bug-repro",
+  "version": "0.0.1",
+  "private": true,
+  "source": "src/index.js",
+  "main": "dist/main.js",
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "dependencies": {
+    "jest": "^29.4.3",
+    "jest-environment-jsdom": "^29.4.3",
+    "parcel": "^2.8.3",
+    "react": "^18.3.0-next-b72ed698f-20230303",
+    "react-dom": "^18.3.0-next-b72ed698f-20230303",
+    "suspense": "^0.0.12"
+  }
+}
